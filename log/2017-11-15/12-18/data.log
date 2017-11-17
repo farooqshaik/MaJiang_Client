@@ -1,0 +1,6 @@
+[
+    {
+        "logtime": "2017/11/15 12:18:03",
+        "logdata": "[string \".\\game/yule/sparrowhz/src/views/layer/GameViewLayer.lua\"]:447: attempt to index global 'CallFunc' (a nil value)\nstack traceback:\n\t[string \".\\game/yule/sparrowhz/src/views/GameLayer.lua\"]:882: in function 'onEventGameMessage'\n\t[string \".\\client/src/plaza/models/GameFrameEngine.lua\"]:117: in function 'onSocketEvent'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:134: in function 'onSocketCallBack'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:90: in function <[string \".\\client/src/plaza/models/BaseFrame.lua\"]:89>"
+    }
+]

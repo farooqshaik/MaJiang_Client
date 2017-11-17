@@ -1,0 +1,10 @@
+[
+    {
+        "logtime": "2017/11/15 00:59:46",
+        "logdata": "[string \".\\client/src/plaza/models/yl.lua\"]:686: attempt to perform arithmetic on local 'a' (a nil value)\nstack traceback:\n\t[string \".\\game/yule/sparrowhz/src/views/layer/CardLayer.lua\"]:567: in function 'setHandCard'\n\t[string \".\\game/yule/sparrowhz/src/views/GameLayer.lua\"]:327: in function 'onEventGameScene'\n\t[string \".\\client/src/plaza/models/GameFrameEngine.lua\"]:673: in function 'onSocketFrameEvent'\n\t[string \".\\client/src/plaza/models/GameFrameEngine.lua\"]:114: in function 'onSocketEvent'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:134: in function 'onSocketCallBack'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:90: in function <[string \".\\client/src/plaza/models/BaseFrame.lua\"]:89>"
+    },
+    {
+        "logtime": "2017/11/15 00:59:51",
+        "logdata": "[string \".\\cocos/init.lua\"]:42: attempt to call global 'buglyReportLuaException' (a nil value)\nstack traceback:\n\t[string \".\\client/src/plaza/models/yl.lua\"]:686: in function 'mod'\n\t[string \".\\game/yule/sparrowhz/src/views/layer/CardLayer.lua\"]:567: in function 'setHandCard'\n\t[string \".\\game/yule/sparrowhz/src/views/GameLayer.lua\"]:327: in function 'onEventGameScene'\n\t[string \".\\client/src/plaza/models/GameFrameEngine.lua\"]:673: in function 'onSocketFrameEvent'\n\t[string \".\\client/src/plaza/models/GameFrameEngine.lua\"]:114: in function 'onSocketEvent'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:134: in function 'onSocketCallBack'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:90: in function <[string \".\\client/src/plaza/models/BaseFrame.lua\"]:89>"
+    }
+]

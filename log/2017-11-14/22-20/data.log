@@ -1,0 +1,6 @@
+[
+    {
+        "logtime": "2017/11/14 22:20:31",
+        "logdata": "[string \".\\game/yule/sparrowhz/src/views/layer/CardLayer.lua\"]:707: assertion failed!\nstack traceback:\n\t[string \".\\game/yule/sparrowhz/src/views/layer/CardLayer.lua\"]:707: in function 'discard'\n\t[string \".\\game/yule/sparrowhz/src/views/layer/GameViewLayer.lua\"]:670: in function 'gameSendCard'\n\t[string \".\\game/yule/sparrowhz/src/views/GameLayer.lua\"]:581: in function 'onEventGameMessage'\n\t[string \".\\client/src/plaza/models/GameFrameEngine.lua\"]:117: in function 'onSocketEvent'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:134: in function 'onSocketCallBack'\n\t[string \".\\client/src/plaza/models/BaseFrame.lua\"]:90: in function <[string \".\\client/src/plaza/models/BaseFrame.lua\"]:89>"
+    }
+]

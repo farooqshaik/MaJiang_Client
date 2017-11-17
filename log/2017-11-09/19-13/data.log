@@ -1,0 +1,6 @@
+[
+    {
+        "logtime": "2017/11/09 19:13:01",
+        "logdata": "display.newSprite() - create sprite failure, source \"Logon/logon_logo.png\"\nstack traceback:\n\t[string \".\\cocos/framework/display.lua\"]:406: in function 'newSprite'\n\t[string \".\\client/src/plaza/views/LogonScene.lua\"]:155: in function 'onCreate'\n\t[string \".\\packages/mvc/ViewBase.lua\"]:20: in function 'ctor'\n\t[string \".\\cocos/cocos2d/functions.lua\"]:239: in function 'createViewEx'\n\t[string \".\\packages/mvc/AppBase.lua\"]:46: in function 'enterSceneEx'\n\t[string \".\\base/src/app/views/WelcomeScene.lua\"]:160: in function 'EnterClient'\n\t[string \".\\base/src/app/views/WelcomeScene.lua\"]:392: in function <[string \".\\base/src/app/views/WelcomeScene.lua\"]:391>"
+    }
+]

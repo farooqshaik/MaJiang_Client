@@ -1,0 +1,15 @@
+.gradle
+.DS_Store
+/__*
+/info
+/run
+cocostudio
+frameworks/cocos2d-x
+frameworks/runtime-src/proj.win32/Release.*/
+frameworks/runtime-src/proj.win32/Debug.*/
+
+!frameworks/cocos2d-x/CHANGELOG
+
+*.sdf
+*.opensdf
+

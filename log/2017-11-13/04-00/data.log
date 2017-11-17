@@ -1,0 +1,6 @@
+[
+    {
+        "logtime": "2017/11/13 04:00:34",
+        "logdata": "[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:92: attempt to call method 'addTouchEventListener' (a nil value)\nstack traceback:\n\t[string \".\\cocos/cocos2d/functions.lua\"]:239: in function 'create'\n\t[string \".\\client/src/privatemode/plaza/src/models/PriRoom.lua\"]:563: in function 'getTagLayer'\n\t[string \".\\client/src/plaza/views/ClientScene.lua\"]:1565: in function 'getTagLayer'\n\t[string \".\\client/src/plaza/views/ClientScene.lua\"]:1298: in function 'onChangeShowMode'\n\t[string \".\\client/src/privatemode/plaza/src/views/PriRoomListLayer.lua\"]:77: in function 'onButtonClickedEvent'\n\t[string \".\\client/src/privatemode/plaza/src/views/PriRoomListLayer.lua\"]:23: in function <[string \".\\client/src/privatemode/plaza/src/views/PriRoomListLayer.lua\"]:21>"
+    }
+]

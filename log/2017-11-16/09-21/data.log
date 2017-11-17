@@ -1,0 +1,10 @@
+[
+    {
+        "logtime": "2017/11/16 09:21:07",
+        "logdata": "[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:402: assertion failed!\nstack traceback:\n\t[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:402: in function 'onSelectedEvent'\n\t[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:121: in function <[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:120>"
+    },
+    {
+        "logtime": "2017/11/16 09:21:11",
+        "logdata": "[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:402: assertion failed!\nstack traceback:\n\t[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:402: in function 'onSelectedEvent'\n\t[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:121: in function <[string \".\\game/yule/sparrowhz/src/privateroom/PriRoomCreateLayer.lua\"]:120>"
+    }
+]
