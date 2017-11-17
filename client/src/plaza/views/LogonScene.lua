@@ -199,7 +199,7 @@ function LogonScene:onButtonClickedEvent(tag,ref)
 		if self:getChildByTag(LogonScene.DG_QUERYEXIT) then
 			return
 		end
-		QueryExit:create("exit_game",function(ok)
+		QueryExit:create("确认退出APP吗？",function(ok)
 				if ok == true then
 					os.exit(0)
 				end

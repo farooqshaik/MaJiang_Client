@@ -271,7 +271,7 @@ function PriRoomCreateLayer:onLoginPriRoomFinish()
             buffer:pushbyte(self.cbEnabled_JiaHu)
             buffer:pushbyte(self.cbEnabled_ChangMaoGang)
             print(self.cbUserNum,self.cbInningsCount_cy,self.cbEnabled_DianPao,self.cbEnabled_FengGang,self.cbEnabled_HuiPai,self.cbEnabled_BaoPai,self.cbEnabled_ZhanLiHu,self.cbEnabled_JiaHu,self.cbEnabled_ChangMaoGang)
-            for i = 1, 100 - 3 do
+            for i = 1, 100 - 11 do
                 buffer:pushbyte(0)
             end
             PriRoom:getInstance():getNetFrame():sendGameServerMsg(buffer)
@@ -308,7 +308,7 @@ function PriRoomCreateLayer:onButtonClickedEvent(tag, sender)
             if PriRoom:getInstance().m_tabRoomOption.cbCardOrBean == 0 then
                 feeType = "游戏豆"
             end
-            local QueryDialog = appdf.req("app.views.layer.other.QueryDialog")
+            local QueryDialog = appdf.req("app.views.layer.other.QueryDialog_chy")
             local query = QueryDialog:create("您的" .. feeType .. "数量不足，是否前往商城充值！", function(ok)
                 if ok == true then
                     if feeType == "游戏豆" then

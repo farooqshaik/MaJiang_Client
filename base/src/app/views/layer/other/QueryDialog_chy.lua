@@ -86,48 +86,51 @@ function QueryDialog:ctor(msg, callback, txtsize, queryType)
 	self:setTouchEnabled(true)
 	self:registerScriptTouchHandler(onQueryExitTouch)
 
-	display.newSprite("query_bg.png")
+	display.newSprite("chy/query_bg_cy.png")
 		:setTag(QueryDialog.DG_QUERY_EXIT)
 		:move(appdf.WIDTH/2,appdf.HEIGHT/2)
 		:addTo(self)
 
 	if QueryDialog.QUERY_SURE == queryType then
-		ccui.Button:create("bt_query_confirm_0.png","bt_query_confirm_1.png")
-			:move(appdf.WIDTH/2 , 200 )
+		ccui.Button:create("chy/bt_query_confirm_0_cy.png","chy/bt_query_confirm_1_cy.png")
+			:move(appdf.WIDTH/2 , 258)
 			:setTag(QueryDialog.BT_CONFIRM)
 			:addTo(self)
 			:addTouchEventListener(btcallback)
 	else
-		ccui.Button:create("bt_query_confirm_0.png","bt_query_confirm_1.png")
-			:move(appdf.WIDTH/2+169 , 200 )
+		ccui.Button:create("chy/bt_query_confirm_0_cy.png","chy/bt_query_confirm_1_cy.png")
+			:move(appdf.WIDTH/2+135 , 258)
 			:setTag(QueryDialog.BT_CONFIRM)
 			:addTo(self)
 			:addTouchEventListener(btcallback)
 
-		ccui.Button:create("bt_query_cancel_0.png","bt_query_cancel_1.png")
-			:move(appdf.WIDTH/2-169 ,200 )
+		ccui.Button:create("chy/bt_query_cancel_0_cy.png","chy/bt_query_cancel_1_cy.png")
+			:move(appdf.WIDTH/2-135 ,258)
 			:setTag(QueryDialog.BT_CANCEL)
 			:addTo(self)
 			:addTouchEventListener(btcallback)
 	end
 
-	cc.Label:createWithTTF("系统消息", "fonts/round_body.ttf", 36)
-		:setTextColor(cc.c4b(255,221,65,255))
-		:setAnchorPoint(cc.p(0.5,0.5))
-		:setDimensions(600, 120)
-		:setHorizontalAlignment(cc.TEXT_ALIGNMENT_CENTER)
-		:setVerticalAlignment(cc.VERTICAL_TEXT_ALIGNMENT_CENTER)
-		:move(appdf.WIDTH/2 ,545 )
-		:addTo(self)
+    ccui.Button:create("chy/bt_cancel_0_cy.png","chy/bt_cancel_1_cy.png")
+			:move(appdf.WIDTH-333,540)
+			:setTag(QueryDialog.BT_CANCEL)
+			:addTo(self)
+			:addTouchEventListener(btcallback)
 
+    display.newSprite("chy/query_title_cy.png")
+        :move(appdf.WIDTH/2 ,540)
+        :addTo(self)
+
+      
 	cc.Label:createWithTTF(msg, "fonts/round_body.ttf", not txtsize and QueryDialog.DEF_TEXT_SIZE or txtsize)
-		:setTextColor(cc.c4b(255,255,255,255))
+		:setTextColor(cc.c4b(200,110,150,255))
 		:setAnchorPoint(cc.p(0.5,0.5))
 		:setDimensions(600, 180)
 		:setHorizontalAlignment(cc.TEXT_ALIGNMENT_CENTER)
 		:setVerticalAlignment(cc.VERTICAL_TEXT_ALIGNMENT_CENTER)
-		:move(appdf.WIDTH/2 ,375 )
+		:move(appdf.WIDTH/2 ,400)
 		:addTo(self)
+
 	self._dismiss  = false
 	self:runAction(cc.MoveTo:create(0.3,cc.p(0,0)))
 end
